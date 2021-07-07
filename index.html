@@ -2,14 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>CERTIFICATES SERIALS</title>
+    <title>SERIALS</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"data-auto-a11y="true"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="container">
-      <h1> CERTIFICATES SERIALIZATION </h1>
+      <h1> SERIALIZE YOUR DOCUMENTS <i class='fas fa-feather' style='font-size:36px'></i> </h1>
+      <div class="">
+      <input type="text" placeholder="Your intials(If any...)" id="init">
+      <input type="text" placeholder="Your finials(If any...)" id="final">
+      </div><br><br>
+      <h3>Your serial is
+        <i class='far fa-hand-point-down' style='font-size:36px'></i></h3>
       <input type="text" placeholder="Your serial" id="display" readonly>
-      <div class="btn" onclick="generate_serial();">Generate Serial</div>
+      <div class="btn" onclick="generate_serial();">Generate Serial <i class='fas fa-seedling' style='font-size:36px'></i></div>
     </div>
   </body>
   <script src="js/scripts.js"> </script>
